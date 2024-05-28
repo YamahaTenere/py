@@ -1,16 +1,6 @@
-def plus(a, b):
-    return a + b
+import random
+a=('1','2','3')
+b='1'
 
-
-text = 'asgfdsgdsf'
-
-
-def minus(x, y):
-    return x - y
-
-
-if __name__ == '__main__':
-    print(plus(2, 2))
-    print(plus(2, 2))
-    print(plus(2, 2))
-    print(minus(10,5))
+c=set(a)-set(b)
+print("".join(c))
